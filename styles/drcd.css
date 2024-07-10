@@ -182,9 +182,35 @@ body {
 }
 .clgrid {
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
 }
-.clgrid img {
+.bckgrnd {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    background-color: #3b1b07;
+    width: 100%;
+    height: 100%;
+}
+.imgone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+}
+.imgtwo {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+.imgthree {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    width: 100%;
+}
+.imgfour {
+    grid-column: 3/4;
+    grid-row: 2/4;
     width: 100%;
 }
 
