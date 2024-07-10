@@ -185,8 +185,25 @@ footer img {
 .blogo {
     padding: 15px;
 }
+#footb a:link {
+    color: white;
+    text-decoration: none;
+}
+#footb a:visited {
+    color: white;
+    text-decoration: none;
+}
 .lone {
-    
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    margin-left: 25px;
+    list-style: none;
+}
+.ltwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    list-style: none;
 }
 #smlinks {
     display: grid;
