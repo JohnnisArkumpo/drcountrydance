@@ -44,7 +44,7 @@ body {
 }
 #heroimg {
     width: 100%;
-    opacity: 0.75;
+    opacity: 0.65;
 }
 #heromsg {
     grid-column: 2/3;
@@ -97,8 +97,8 @@ body {
     display: grid;
     grid-template-rows: 3fr 1fr 2fr 1fr;
     width: 250px;
-    height: 350px;
-    background-color: #895737;
+    height: 360px;
+    background-color: #C08552;
     border-radius: 8px;
 }
 .mgimg {
@@ -144,7 +144,7 @@ body {
     margin-bottom: 200px;
 }
 #background {
-    background-color: #C08552;
+    background-color: #895737;
     grid-column: 1/6;
     grid-row: 1/4;
     height: 100%;
@@ -170,7 +170,23 @@ body {
     color: #000000;
     padding-bottom: 15px;
 }
-
+/* live lesson specific css */
+.lherogrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.textgrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.clgrid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.clgrid img {
+    width: 100%;
+}
 
 
 /* Footer */

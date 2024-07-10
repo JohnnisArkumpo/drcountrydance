@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirt Road Country Dance main page</title>
+    <link rel="stylesheet" href="styles/drcd.css">
 </head>
 <body>
 <!-- header -->
-    <header>
-        <a href="index.html">
+    <header id="headc">
+        <a href="index.html" id="hlogo">
             <img src="images/drcdlogo.png" alt="DRCD logo">
         </a>
-        <nav>
-            <a href="database.html">Dancing Database</a> 
-            <a href="lessons.html">Live Lessons</a>
+        <nav class="navbar">
+            <a href="database.html" id="dd">Dancing Database</a> 
+            <a href="lessons.html" id="ll">Live Lessons</a>
         </nav>
     </header>
 <!-- hero banner -->
-    <div>
-        <section>
+    <div class="lherogrid">
+        <section class="textgrid">
             <h1>Take your country swing...</h1>
             <h3><em>To another level</em></h3>
             <h3>Our instructors here at Dirt Road Country Dance can help you elevate your moves to the next level</h3>
         </section>
-        <div>
+        <div class="clgrid">
             <img src="images/bandwdance.jpg" alt="black and white dancing people">
-            <img src="images/dirtroad.jpg" alt="dirt road">
             <img src="images/openroadcountrydancing.jpg" alt="dancing on a road">
             <img src="images/bridgedancing.jpg" alt="dancing on a bridge">
+            <img src="images/dirtroad.jpg" alt="dirt road">
         </div>
     </div>
 <!-- main content -->
@@ -54,18 +55,21 @@
 </main>
 <!-- footer -->
 <footer>
-    <img src="images/drcdlogo.png" alt="DRCD logo">
-    <p><a href="#">FAQ</a></p>
-    <p><a href="#">Contact us</a></p>
-    <div>
-        <p><a href="#">Careers</a></p>
-        <p><a href="#">Terms of use</a></p>
-        <p><a href="">Corporate information</a></p>
-        <p><a href="#">Copyright information</a></p>
-        <p><a href="#">Modern Slavery Act</a></p>
-        <p><a href="https://johnnisarkumpo.github.io/drcountrydance/site-plan.html">Site plan</a></p>
-    </div>
-    <div>
+<div id="footb">
+    <img src="images/drcdlogo.png" alt="DRCD logo" class="blogo">
+    <ul class="lone">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <ul class="ltwo"> 
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Corporate information</a></li>
+        <li><a href="#">Copyright information</a></li>
+        <li><a href="#">Modern Slavery Act</a></li>
+        <li><a href="https://johnnisarkumpo.github.io/drcountrydance/site-plan.html">Site plan</a></li>
+    </ul>
+    <div id="smlinks">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="facebook icon">
         </a>
@@ -79,6 +83,7 @@
             <img src="images/instagram.png" alt="instagram icon">
         </a>
     </div>
+</div>
 </footer>
 </body>
 </html>
