@@ -282,6 +282,56 @@ body {
     grid-column: 1/2;
     grid-row: 1/4;
 }
+.dbp {
+    width: 100%;
+    height: 500px;
+    background-color: #C08552;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 25px;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    margin-bottom: 250px;
+}
+.dbpt {
+    font-size: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+}
+.dbpp {
+    font-size: 1.5em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.dbpi {
+    width: 100%;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 15px;
+    border-radius: 25px;
+}
+.dbpbutton {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-color: #3b1b07;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.dbpbutton a:link {
+    color: white;
+    text-decoration: none;
+}
+.dbpbutton a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 /* Footer */
 footer img {
