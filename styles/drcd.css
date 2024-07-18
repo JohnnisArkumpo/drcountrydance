@@ -303,11 +303,11 @@ body {
     grid-row: 2/3;
 }
 .dbpi {
-    width: 100%;
+    width: 98%;
     grid-column: 3/5;
     grid-row: 1/3;
     box-shadow: 5px 5px 10px #6f7364;
-    padding: 15px;
+    margin: 15px;
     border-radius: 25px;
 }
 .dbpbutton {
@@ -321,8 +321,9 @@ body {
     height: 22px;
     text-align: center;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-bottom: 5px;
+    font-style: italic;
 }
 .dbpbutton a:link {
     color: white;
@@ -331,6 +332,62 @@ body {
 .dbpbutton a:visited {
     color: white;
     text-decoration: none;
+}
+/* Dancing Database specific CSS */
+.sidenav {
+    height: 80.4%; 
+    width: 260px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #3b1b07; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.sidenav h2 {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding-left: 15%;
+}
+.sidenav ul {
+    list-style-type: none;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+    display: block;
+}
+.sidenav a:hover {
+    color: #c9986d;
+}
+.vblock {
+    text-align: left;
+    width: 80%;
+    margin-top: 120px;
+}
+.vblock h2 {
+    margin-left: 2%;
+    font-size: 2em;
+}
+.videolist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-left: 2.5%;
+}
+.videolist img {
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.videolist p {
+    text-align: center;
+    font-style: italic;
+}
+#otherl {
+    margin-bottom: 180px;
 }
 
 /* Footer */
