@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
 }
 /* Header */
-#headc {
+#headc { 
     background-color: #895737;
     display: grid;
     grid-template-columns: 1fr 2fr 7fr;
