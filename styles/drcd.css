@@ -241,7 +241,7 @@ body {
     column-gap: 10px;
     margin: 100px auto;
     padding: 15px;
-    font-size: 2em;
+    font-size: 3em;
 }
 .lefttext {
     display: grid;
@@ -263,9 +263,10 @@ body {
     grid-column: 2/4;
     grid-row: 2/3;
     align-self: end;
+    font-size: 0.8em;
 }
 .rlist {
-    font-size: 1.2em;
+    font-size: 0.2em;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
