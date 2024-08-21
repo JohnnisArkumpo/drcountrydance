@@ -237,7 +237,7 @@ body {
 }
 .righttext {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     column-gap: 10px;
     margin: 100px auto;
     padding: 15px;
@@ -258,6 +258,7 @@ body {
 .rtitle {
     grid-column: 2/3;
     grid-row: 1/2;
+    text-decoration: underline;
 }
 .rtext {
     grid-column: 2/4;
@@ -266,7 +267,7 @@ body {
     font-size: 0.8em;
 }
 .rlist {
-    font-size: 0.2em;
+    font-size: 0.65em;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
