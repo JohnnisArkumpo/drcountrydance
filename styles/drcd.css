@@ -265,7 +265,7 @@ body {
     grid-column: 2/4;
     grid-row: 2/3;
     align-self: end;
-    font-size: 1.2em;
+    font-size: 0.5em;
 }
 .rlist {
     font-size: 1.2em;
