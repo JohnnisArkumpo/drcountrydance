@@ -268,10 +268,11 @@ body {
     font-size: 2em;
 }
 .rlist {
-    font-size: 1em;
+    font-size: 1.2em;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0px;
     width: 100%;
 }
 .rlist h3 a {
